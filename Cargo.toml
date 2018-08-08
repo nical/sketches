@@ -1,0 +1,11 @@
+[package]
+name = "sketches"
+version = "0.0.1"
+
+[workspace]
+members = [
+    "utils"
+]
+
+[dependencies]
+utils = { path = "utils" }

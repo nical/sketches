@@ -1,0 +1,11 @@
+[package]
+name = "utils"
+version = "0.1.0"
+authors = ["Nicolas Silva <nical@fastmail.com>"]
+workspace = ".."
+
+[dependencies]
+
+lyon = { path = "/home/nical/dev/rust/lyon", features = ["extra", "serialization", "svg"] }
+image = "0.19"
+rand = "0.5"
